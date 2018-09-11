@@ -1,13 +1,20 @@
 import React from "react";
+import "./css/Nav.css";
 
 export default function Nav() {
   return (
-    <div className="main_nav">
-      <a href="/">Home</a>
+    <div className="main-nav">
+      <a className="button" href="/">
+        Home
+      </a>
 
-      <a href="/Contact">Contact</a>
+      <a className="button" href="/Contact">
+        Contact
+      </a>
 
-      <a href="/Projects">Projects</a>
+      <a className="button" href="/Projects">
+        Projects
+      </a>
     </div>
   );
 }

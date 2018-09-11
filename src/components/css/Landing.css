@@ -1,0 +1,22 @@
+.main-back {
+  background-image: url("../photos/portfoliobackdrop.jpg");
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  margin: 10 10;
+}
+
+.title {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}

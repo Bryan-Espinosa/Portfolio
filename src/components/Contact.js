@@ -1,11 +1,8 @@
 import React from "react";
-import Photo from "./photos/github.jpg";
 
 export default function Contact() {
   return (
-    <div>
-      <img src={Photo} alt="Not Found" />
-
+    <div className="main-contact">
       <p>Phone : (682)-552-1412</p>
       <p>
         Email :{" "}
