@@ -1,5 +1,5 @@
 .main-nav {
-  background-image: url("../photos/portfoliobackdrop.jpg");
+  background-color: black;
   height: 10vh;
   display: flex;
   justify-content: space-evenly;
@@ -8,6 +8,6 @@
 
 .button {
   text-decoration: none;
-  color: black;
+  color: #f4f4f4;
   font-size: 2em;
 }

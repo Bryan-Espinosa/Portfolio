@@ -1,4 +1,16 @@
 .main-contact {
   background-image: url("../photos/github.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 90vh;
+  display: flex;
+}
+
+.info {
+  color: white;
+}
+
+.box-info {
+  margin-left: 10px;
+  font-size: 1.3em;
 }

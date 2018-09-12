@@ -1,0 +1,28 @@
+.project-body {
+  background-image: url("../photos/portfoliobackdrop.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+.pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh;
+}
+
+.pro a {
+  font-size: 3em;
+  text-decoration: none;
+}
+
+.pro img {
+  width: 50%;
+  margin: 5vh;
+}
+
+.pro article {
+  width: 70%;
+  text-align: center;
+  font-size: 1.5em;
+}
