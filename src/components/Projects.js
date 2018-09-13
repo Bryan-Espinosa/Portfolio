@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "./photos/logositecreenshot.PNG";
-import Qron from "./photos/Qroniqlescreenshot.PNG";
+import Logo from "../photos/logositecreenshot.PNG";
+import Qron from "../photos/Qroniqlescreenshot.PNG";
 import "./css/Projects.css";
 
 export default function Projects() {

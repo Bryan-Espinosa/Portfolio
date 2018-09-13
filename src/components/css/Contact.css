@@ -1,13 +1,27 @@
 .main-contact {
-  background-image: url("../photos/github.jpg");
+  background-image: url("../../photos/profilepic.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 90vh;
   display: flex;
 }
 
+.box-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .info {
+  display: flex;
   color: white;
+  flex-direction: column;
+}
+
+.info img {
+  flex-direction: row;
+  height: 10vh;
+  width: 10vh;
 }
 
 .links {

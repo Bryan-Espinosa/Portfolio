@@ -1,5 +1,5 @@
 .project-body {
-  background-image: url("../photos/portfoliobackdrop.jpg");
+  background-image: url("../../photos/portfoliobackdrop.jpg");
   display: flex;
   flex-direction: column;
 }

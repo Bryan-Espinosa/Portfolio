@@ -1,5 +1,5 @@
 .main-back {
-  background-image: url("../photos/portfoliobackdrop.jpg");
+  background-image: url("../../photos/portfoliobackdrop.jpg");
   height: 95vh;
   display: flex;
   flex-direction: column;

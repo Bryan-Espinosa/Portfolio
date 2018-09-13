@@ -1,8 +1,8 @@
 import React from "react";
 import "./css/Contact.css";
-import "../photos/gmail.png";
-import "../photos/githubIcon.pmg.png";
-import "../photos/linkedin.png";
+import gmail from "../photos/gmail.svg";
+import git from "../photos/githublogo.svg";
+import link from "../photos/linkedin.svg";
 
 export default function Contact() {
   return (
@@ -14,13 +14,9 @@ export default function Contact() {
             className="info"
             href="mailto: bryan.espinosa117@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
-              className="links"
-              src={require("../photos/gmail.png")}
-              alt=" gmail"
-            />
-            bryan.espinosa117@gmail.com
+            <img className="links" src={gmail} alt=" gmail" />
           </a>
         </p>
         <p className="info">
@@ -28,9 +24,9 @@ export default function Contact() {
             className="info"
             href="https://linkedin.com/in/bryan-s-espinosa/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={require("../photos/linkedin.png")} alt=" LinkedIn : " />
-            linkedin.com/in/bryan-s-espinosa/
+            <img src={link} alt=" LinkedIn : " />
           </a>
         </p>
         <p className="info">
@@ -38,12 +34,9 @@ export default function Contact() {
             className="info"
             href="https://github.com/Bryan-Espinosa/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img
-              src={require("../photos/githubIcon.pmg.png")}
-              alt=" Github : "
-            />
-            github.com/Bryan-Espinosa/
+            <img src={git} alt=" Github : " />
           </a>
         </p>
       </div>
