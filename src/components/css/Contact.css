@@ -10,6 +10,11 @@
   color: white;
 }
 
+.links {
+  height: 10vh;
+  width: 10vw;
+}
+
 .box-info {
   margin-left: 10px;
   font-size: 1.3em;
