@@ -8,6 +8,7 @@
 
 .name {
   font-size: 3em;
+  color: white;
   display: flex;
   justify-content: center;
   height: 20vh;
@@ -16,12 +17,15 @@
 
 .title {
   font-size: 3em;
+  color: white;
+
   display: flex;
   justify-content: center;
   height: 20vh;
 }
 
 .about {
+  color: white;
   font-size: 2em;
   display: flex;
   justify-content: center;

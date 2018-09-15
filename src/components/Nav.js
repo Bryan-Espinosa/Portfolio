@@ -5,15 +5,15 @@ import "./css/Nav.css";
 export default function Nav() {
   return (
     <div className="main-nav">
-      <Link className="button" href="/">
+      <Link to="/" className="button">
         Home
       </Link>
 
-      <Link className="button" href="/Contact">
+      <Link to="/Contact" className="button">
         Contact
       </Link>
 
-      <Link className="button" href="/Projects">
+      <Link to="/Projects" className="button">
         Projects
       </Link>
     </div>
