@@ -1,20 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./css/Nav.css";
 
 export default function Nav() {
   return (
     <div className="main-nav">
-      <a href="/" className="button">
+      <Link to="/" className="button">
         Home
-      </a>
+      </Link>
 
-      <a href="/Contact" className="button">
+      <Link to="/Contact" className="button">
         Contact
-      </a>
+      </Link>
 
-      <a href="/Projects" className="button">
+      <Link to="/Projects" className="button">
         Projects
-      </a>
+      </Link>
     </div>
   );
 }

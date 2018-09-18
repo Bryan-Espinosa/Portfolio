@@ -6,11 +6,9 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 
 export default (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route path="/Contact" component={Contact} />
-      <Route path="/Projects" component={Projects} />
-    </Switch>
-  </BrowserRouter>
+  <Switch>
+    <Route exact path="/" component={Landing} />
+    <Route path="/Contact" component={Contact} />
+    <Route path="/Projects" component={Projects} />
+  </Switch>
 );
