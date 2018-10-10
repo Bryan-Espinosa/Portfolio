@@ -17,6 +17,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img className="links" src={gmail} alt=" gmail" />
+            bryan.espinosa117@gmail.com
           </a>
         </p>
         <p className="info">
@@ -27,6 +28,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img src={link} alt=" LinkedIn : " />
+            www.linkedin.com/in/bryan-s-espinosa/
           </a>
         </p>
         <p className="info">
@@ -37,6 +39,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img src={git} alt=" Github : " />
+            www.github.com/Bryan-Espinosa
           </a>
         </p>
       </div>

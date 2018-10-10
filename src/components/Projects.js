@@ -7,8 +7,14 @@ export default function Projects() {
   return (
     <div className="project-body">
       <div className="pro">
-        <a href="http://www.logosite.xyz:8080">Logo</a>
         <img src={Logo} alt="Not found" />
+        <a
+          href="http://www.logosite.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          www.logosite.xyz
+        </a>
 
         <article>
           This was my personal project While at Dev-Mountain, it was originally
@@ -17,8 +23,14 @@ export default function Projects() {
         </article>
       </div>
       <div className="pro">
-        <a href="http://www.qroniqle.site">Qroniqle</a>
         <img src={Qron} alt="not found" />
+        <a
+          href="http://www.qroniqle.site"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          www.qroniqle.site
+        </a>
         <article>
           This was my Group project while at Dev-Mountain, it is a blog site
           where users can signup/login create stories/events and update that
